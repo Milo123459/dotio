@@ -4,13 +4,18 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "ts-node-dev --respawn --transpile-only --poll ./src/index.ts",
+    "test:logger": "ts-node-dev --respawn --transpile-only --poll ./src/modules/logger/index.ts",
     "lint": "prettier --write .",
     "build": "tsc"
   },
   "keywords": [],
   "author": "",
   "license": "MIT",
+  "dependencies": {
+    "chalk": "^4.1.0",
+    "log-symbols": "^4.0.0",
+    "moment": "^2.29.1"
+  },
   "devDependencies": {
     "@commitlint/cli": "^11.0.0",
     "@commitlint/config-angular": "^11.0.0",

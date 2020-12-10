@@ -41,8 +41,11 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@commitlint/config-angular", "npm:11.0.0"],
             ["@types/node", "npm:14.14.12"],
             ["@types/prettier", "npm:2.1.5"],
+            ["chalk", "npm:4.1.0"],
             ["husky", "npm:4.3.5"],
             ["lint-staged", "npm:10.5.3"],
+            ["log-symbols", "npm:4.0.0"],
+            ["moment", "npm:2.29.1"],
             ["prettier", "npm:2.2.1"],
             ["ts-node", "virtual:5b60d7e616b163983b4f2f32375683b248443dabce304c308f9602e0b191ac88b796f158b178b067e9a73362f379de18b5d0e5fa9bd849c041dda769dee78e17#npm:9.1.1"],
             ["ts-node-dev", "virtual:5b60d7e616b163983b4f2f32375683b248443dabce304c308f9602e0b191ac88b796f158b178b067e9a73362f379de18b5d0e5fa9bd849c041dda769dee78e17#npm:1.1.1"],
@@ -1114,8 +1117,11 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@commitlint/config-angular", "npm:11.0.0"],
             ["@types/node", "npm:14.14.12"],
             ["@types/prettier", "npm:2.1.5"],
+            ["chalk", "npm:4.1.0"],
             ["husky", "npm:4.3.5"],
             ["lint-staged", "npm:10.5.3"],
+            ["log-symbols", "npm:4.0.0"],
+            ["moment", "npm:2.29.1"],
             ["prettier", "npm:2.2.1"],
             ["ts-node", "virtual:5b60d7e616b163983b4f2f32375683b248443dabce304c308f9602e0b191ac88b796f158b178b067e9a73362f379de18b5d0e5fa9bd849c041dda769dee78e17#npm:9.1.1"],
             ["ts-node-dev", "virtual:5b60d7e616b163983b4f2f32375683b248443dabce304c308f9602e0b191ac88b796f158b178b067e9a73362f379de18b5d0e5fa9bd849c041dda769dee78e17#npm:1.1.1"],
@@ -2339,6 +2345,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/mkdirp-npm-1.0.4-37f6ef56b9-1aa3a6a2d7.zip/node_modules/mkdirp/",
           "packageDependencies": [
             ["mkdirp", "npm:1.0.4"]
+          ],
+          "linkType": "HARD",
+        }]
+      ]],
+      ["moment", [
+        ["npm:2.29.1", {
+          "packageLocation": "./.yarn/cache/moment-npm-2.29.1-787d9fdafd-86729013fe.zip/node_modules/moment/",
+          "packageDependencies": [
+            ["moment", "npm:2.29.1"]
           ],
           "linkType": "HARD",
         }]

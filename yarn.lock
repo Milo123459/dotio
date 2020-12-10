@@ -927,8 +927,11 @@ __metadata:
     "@commitlint/config-angular": ^11.0.0
     "@types/node": ^14.14.12
     "@types/prettier": ^2
+    chalk: ^4.1.0
     husky: ^4.3.5
     lint-staged: ^10.5.3
+    log-symbols: ^4.0.0
+    moment: ^2.29.1
     prettier: ^2.2.1
     ts-node: ^9.1.1
     ts-node-dev: ^1.1.1
@@ -2007,6 +2010,13 @@ fsevents@~2.1.2:
   bin:
     mkdirp: bin/cmd.js
   checksum: 1aa3a6a2d7514f094a91329ec09994f5d32d2955a4985ecbb3d86f2aaeafc4aa11521f98d606144c1d49cd9835004d9a73342709b8c692c92e59eacf37412468
+  languageName: node
+  linkType: hard
+
+"moment@npm:^2.29.1":
+  version: 2.29.1
+  resolution: "moment@npm:2.29.1"
+  checksum: 86729013febf7160de5b93da69273dd304d674b0224f9544b3abd09a87671ddd2cdd57598261ce57588910d63747ffd5590965e83c790d8bf327083c0e0a06e0
   languageName: node
   linkType: hard
 
