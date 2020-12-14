@@ -52,7 +52,7 @@ const myOtherValue = Get('myConfigValue');
 
 Step 1: Make sure the module you are using has dotio as a dependency & a `iom.yml`
 
-Step 2: Create a``config.io`
+Step 2: Create a `config.io`
 
 Step 3: Write your config
 
