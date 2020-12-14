@@ -70,3 +70,23 @@ Using this mechanic, the owner of the modules can't get global variables. Howeve
 ## Errors
 
 Errors are thrown for everything, invalid types, not specifying required things and much more
+
+## In depth: Global variables
+
+You can specify if you want the module to be able to see your global variables by adding at the top:
+
+```io
+{GlobalVarsSeen} = true
+...config
+```
+
+## Comments
+
+You can add comments like so:
+
+```io
+...config
+/# Hi, this is a comment!
+/# This is another comments
+```
+Note that comments can _**only**_ go on new lines!
